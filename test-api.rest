@@ -1,0 +1,16 @@
+
+GET http://localhost:3000/api/invoices
+Accept: application/json
+// File: test-api.http
+// This request retrieves all invoices from the API.    
+
+
+
+POST http://localhost:3000/api/invoices
+Content-Type: application/json  
+
+{"customer":"Test Client",
+"email":"test@example.com",
+"value":"50.00",
+"description":"Facture de test"
+}
